@@ -9,7 +9,8 @@ DerivedData/
 ## Various settings
 *.pbxuser
 !default.pbxuser
-*/xcuserdata/
+xcuserdata/
+*.xcuserstate
 
 ## Other
 *.moved-aside
