@@ -13,7 +13,9 @@
 		3221E9361DACDA2700CD7C59 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3221E9351DACDA2700CD7C59 /* .gitignore */; };
 		3221E9461DACDE5B00CD7C59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3221E9421DACDE5B00CD7C59 /* LaunchScreen.storyboard */; };
 		3221E9471DACDE5B00CD7C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3221E9441DACDE5B00CD7C59 /* Main.storyboard */; };
-		3221E94D1DACDF0700CD7C59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3221E94C1DACDF0700CD7C59 /* ViewController.m */; };
+		3221E9501DACE46E00CD7C59 /* DGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3221E94F1DACE46E00CD7C59 /* DGTableViewController.m */; };
+		3221E9571DAD231100CD7C59 /* DGContenUnderKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3221E9551DAD231100CD7C59 /* DGContenUnderKeyboardViewController.m */; };
+		3221E95B1DAD235400CD7C59 /* DGContenUnderKeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3221E95A1DAD235400CD7C59 /* DGContenUnderKeyboardViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +28,11 @@
 		3221E9351DACDA2700CD7C59 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		3221E9431DACDE5B00CD7C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3221E9451DACDE5B00CD7C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3221E94B1DACDF0700CD7C59 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3221E94C1DACDF0700CD7C59 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3221E94E1DACE46E00CD7C59 /* DGTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGTableViewController.h; sourceTree = "<group>"; };
+		3221E94F1DACE46E00CD7C59 /* DGTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGTableViewController.m; sourceTree = "<group>"; };
+		3221E9541DAD231100CD7C59 /* DGContenUnderKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGContenUnderKeyboardViewController.h; sourceTree = "<group>"; };
+		3221E9551DAD231100CD7C59 /* DGContenUnderKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGContenUnderKeyboardViewController.m; sourceTree = "<group>"; };
+		3221E95A1DAD235400CD7C59 /* DGContenUnderKeyboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DGContenUnderKeyboardViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				3221E9391DACDE0400CD7C59 /* Storyboards */,
-				3221E93A1DACDE1000CD7C59 /* XIBs */,
+				3221E9591DAD234100CD7C59 /* XIBs */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -108,18 +113,13 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		3221E93A1DACDE1000CD7C59 /* XIBs */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = XIBs;
-			sourceTree = "<group>";
-		};
 		3221E9481DACDEB600CD7C59 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				3221E94B1DACDF0700CD7C59 /* ViewController.h */,
-				3221E94C1DACDF0700CD7C59 /* ViewController.m */,
+				3221E94E1DACE46E00CD7C59 /* DGTableViewController.h */,
+				3221E94F1DACE46E00CD7C59 /* DGTableViewController.m */,
+				3221E9541DAD231100CD7C59 /* DGContenUnderKeyboardViewController.h */,
+				3221E9551DAD231100CD7C59 /* DGContenUnderKeyboardViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -136,6 +136,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		3221E9591DAD234100CD7C59 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				3221E95A1DAD235400CD7C59 /* DGContenUnderKeyboardViewController.xib */,
+			);
+			path = XIBs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +172,7 @@
 		3221E90F1DACD29000CD7C59 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DG;
 				LastUpgradeCheck = 0800;
 				TargetAttributes = {
 					3221E9161DACD29000CD7C59 = {
@@ -199,6 +208,7 @@
 				3221E9361DACDA2700CD7C59 /* .gitignore in Resources */,
 				3221E9271DACD29000CD7C59 /* Assets.xcassets in Resources */,
 				3221E9471DACDE5B00CD7C59 /* Main.storyboard in Resources */,
+				3221E95B1DAD235400CD7C59 /* DGContenUnderKeyboardViewController.xib in Resources */,
 				3221E9461DACDE5B00CD7C59 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,7 +220,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3221E94D1DACDF0700CD7C59 /* ViewController.m in Sources */,
+				3221E9501DACE46E00CD7C59 /* DGTableViewController.m in Sources */,
+				3221E9571DAD231100CD7C59 /* DGContenUnderKeyboardViewController.m in Sources */,
 				3221E91F1DACD29000CD7C59 /* AppDelegate.m in Sources */,
 				3221E91C1DACD29000CD7C59 /* main.m in Sources */,
 			);
