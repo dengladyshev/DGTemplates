@@ -1,0 +1,21 @@
+# Created by https://www.gitignore.io/api/xcode
+
+### Xcode ###
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# Pods - for those of you who use CocoaPods
+Pods
+version.h
