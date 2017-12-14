@@ -9,13 +9,23 @@
 /* Begin PBXBuildFile section */
 		3221E91C1DACD29000CD7C59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3221E91B1DACD29000CD7C59 /* main.m */; };
 		3221E9361DACDA2700CD7C59 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3221E9351DACDA2700CD7C59 /* .gitignore */; };
-		3225E60C1FE2C515008F5531 /* DGContenUnderKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3225E6081FE2C515008F5531 /* DGContenUnderKeyboardViewController.m */; };
-		3225E60D1FE2C515008F5531 /* DGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3225E60A1FE2C515008F5531 /* DGTableViewController.m */; };
 		3225E60E1FE2C515008F5531 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3225E60B1FE2C515008F5531 /* AppDelegate.m */; };
-		3225E6171FE2C551008F5531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3225E6111FE2C551008F5531 /* LaunchScreen.storyboard */; };
-		3225E6181FE2C551008F5531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3225E6131FE2C551008F5531 /* Main.storyboard */; };
-		3225E6191FE2C551008F5531 /* DGContenUnderKeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3225E6161FE2C551008F5531 /* DGContenUnderKeyboardViewController.xib */; };
 		3225E61C1FE2C577008F5531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3225E61B1FE2C577008F5531 /* Assets.xcassets */; };
+		6C01DB021FE3008A0065FE0F /* DGPagedSliderFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C01DB011FE3008A0065FE0F /* DGPagedSliderFlowLayout.m */; };
+		6C01DB151FE309030065FE0F /* DGTemplateCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C01DB141FE309030065FE0F /* DGTemplateCollectionViewController.m */; };
+		6C01DB1B1FE3098B0065FE0F /* DGBaseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C01DB191FE3098B0065FE0F /* DGBaseCollectionViewController.m */; };
+		6C01DB1E1FE309C20065FE0F /* DGListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C01DB1D1FE309C20065FE0F /* DGListViewModel.m */; };
+		6C2F05751FE2E72100637B0F /* DGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2F05731FE2E72100637B0F /* DGTableViewController.m */; };
+		6C2F05791FE2E77900637B0F /* DGContenUnderKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2F05771FE2E77900637B0F /* DGContenUnderKeyboardViewController.m */; };
+		6C2F057B1FE2E7A500637B0F /* DGContenUnderKeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C2F057A1FE2E7A400637B0F /* DGContenUnderKeyboardViewController.xib */; };
+		6C2F05811FE2E7D000637B0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C2F057D1FE2E7D000637B0F /* LaunchScreen.storyboard */; };
+		6C2F05821FE2E7D000637B0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C2F057F1FE2E7D000637B0F /* Main.storyboard */; };
+		6C963D281FE2ED1700F97238 /* DGSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C963D261FE2ED1700F97238 /* DGSliderViewController.m */; };
+		6C963D291FE2ED1700F97238 /* DGSliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C963D271FE2ED1700F97238 /* DGSliderViewController.xib */; };
+		6CCF5C0F1FE30ACB004C3EFA /* DGTemplateCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCF5C0E1FE30ACB004C3EFA /* DGTemplateCellViewModel.m */; };
+		6CCF5C121FE30B31004C3EFA /* DGTemplateCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCF5C111FE30B31004C3EFA /* DGTemplateCollectionViewCell.m */; };
+		6CCF5C141FE30F6D004C3EFA /* DGTemplateCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CCF5C131FE30F6D004C3EFA /* DGTemplateCollectionViewController.xib */; };
+		6CCF5C161FE3114E004C3EFA /* DGTemplateCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CCF5C151FE3114E004C3EFA /* DGTemplateCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,15 +34,35 @@
 		3221E92B1DACD29000CD7C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3221E9351DACDA2700CD7C59 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		3225E6051FE2C515008F5531 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3225E6071FE2C515008F5531 /* DGContenUnderKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGContenUnderKeyboardViewController.h; sourceTree = "<group>"; };
-		3225E6081FE2C515008F5531 /* DGContenUnderKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGContenUnderKeyboardViewController.m; sourceTree = "<group>"; };
-		3225E6091FE2C515008F5531 /* DGTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGTableViewController.h; sourceTree = "<group>"; };
-		3225E60A1FE2C515008F5531 /* DGTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGTableViewController.m; sourceTree = "<group>"; };
 		3225E60B1FE2C515008F5531 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3225E6121FE2C551008F5531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3225E6141FE2C551008F5531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3225E6161FE2C551008F5531 /* DGContenUnderKeyboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DGContenUnderKeyboardViewController.xib; sourceTree = "<group>"; };
 		3225E61B1FE2C577008F5531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C01DB001FE3008A0065FE0F /* DGPagedSliderFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DGPagedSliderFlowLayout.h; sourceTree = "<group>"; };
+		6C01DB011FE3008A0065FE0F /* DGPagedSliderFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DGPagedSliderFlowLayout.m; sourceTree = "<group>"; };
+		6C01DB101FE3074F0065FE0F /* DGBaseListViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGBaseListViewModelProtocol.h; sourceTree = "<group>"; };
+		6C01DB111FE3074F0065FE0F /* DGCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGCellModel.h; sourceTree = "<group>"; };
+		6C01DB121FE307F40065FE0F /* DGConfigurableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DGConfigurableCell.h; sourceTree = "<group>"; };
+		6C01DB131FE309030065FE0F /* DGTemplateCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DGTemplateCollectionViewController.h; sourceTree = "<group>"; };
+		6C01DB141FE309030065FE0F /* DGTemplateCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DGTemplateCollectionViewController.m; sourceTree = "<group>"; };
+		6C01DB171FE3098A0065FE0F /* DGBaseCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGBaseCollectionViewController.h; sourceTree = "<group>"; };
+		6C01DB191FE3098B0065FE0F /* DGBaseCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGBaseCollectionViewController.m; sourceTree = "<group>"; };
+		6C01DB1C1FE309C20065FE0F /* DGListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DGListViewModel.h; sourceTree = "<group>"; };
+		6C01DB1D1FE309C20065FE0F /* DGListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DGListViewModel.m; sourceTree = "<group>"; };
+		6C2F05731FE2E72100637B0F /* DGTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGTableViewController.m; sourceTree = "<group>"; };
+		6C2F05741FE2E72100637B0F /* DGTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGTableViewController.h; sourceTree = "<group>"; };
+		6C2F05771FE2E77900637B0F /* DGContenUnderKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGContenUnderKeyboardViewController.m; sourceTree = "<group>"; };
+		6C2F05781FE2E77900637B0F /* DGContenUnderKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGContenUnderKeyboardViewController.h; sourceTree = "<group>"; };
+		6C2F057A1FE2E7A400637B0F /* DGContenUnderKeyboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DGContenUnderKeyboardViewController.xib; sourceTree = "<group>"; };
+		6C2F057E1FE2E7D000637B0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C2F05801FE2E7D000637B0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C963D251FE2ED1700F97238 /* DGSliderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DGSliderViewController.h; sourceTree = "<group>"; };
+		6C963D261FE2ED1700F97238 /* DGSliderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DGSliderViewController.m; sourceTree = "<group>"; };
+		6C963D271FE2ED1700F97238 /* DGSliderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DGSliderViewController.xib; sourceTree = "<group>"; };
+		6CCF5C0D1FE30ACB004C3EFA /* DGTemplateCellViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DGTemplateCellViewModel.h; sourceTree = "<group>"; };
+		6CCF5C0E1FE30ACB004C3EFA /* DGTemplateCellViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DGTemplateCellViewModel.m; sourceTree = "<group>"; };
+		6CCF5C101FE30B31004C3EFA /* DGTemplateCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DGTemplateCollectionViewCell.h; sourceTree = "<group>"; };
+		6CCF5C111FE30B31004C3EFA /* DGTemplateCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DGTemplateCollectionViewCell.m; sourceTree = "<group>"; };
+		6CCF5C131FE30F6D004C3EFA /* DGTemplateCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DGTemplateCollectionViewController.xib; sourceTree = "<group>"; };
+		6CCF5C151FE3114E004C3EFA /* DGTemplateCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DGTemplateCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,47 +117,13 @@
 			children = (
 				3225E6051FE2C515008F5531 /* AppDelegate.h */,
 				3225E60B1FE2C515008F5531 /* AppDelegate.m */,
-				3225E6061FE2C515008F5531 /* ViewControllers */,
-				3225E60F1FE2C551008F5531 /* UI */,
+				6C2F05721FE2E6F000637B0F /* Common */,
+				6C2F05761FE2E75B00637B0F /* KeyboardModule */,
+				6C963D241FE2EC5200F97238 /* SliderModule */,
+				6C01DB041FE304440065FE0F /* CollectionViewWithViewModel */,
+				6C2F057C1FE2E7D000637B0F /* Storyboards */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		3225E6061FE2C515008F5531 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				3225E6071FE2C515008F5531 /* DGContenUnderKeyboardViewController.h */,
-				3225E6081FE2C515008F5531 /* DGContenUnderKeyboardViewController.m */,
-				3225E6091FE2C515008F5531 /* DGTableViewController.h */,
-				3225E60A1FE2C515008F5531 /* DGTableViewController.m */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		3225E60F1FE2C551008F5531 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				3225E6101FE2C551008F5531 /* Storyboards */,
-				3225E6151FE2C551008F5531 /* XIBs */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		3225E6101FE2C551008F5531 /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				3225E6111FE2C551008F5531 /* LaunchScreen.storyboard */,
-				3225E6131FE2C551008F5531 /* Main.storyboard */,
-			);
-			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		3225E6151FE2C551008F5531 /* XIBs */ = {
-			isa = PBXGroup;
-			children = (
-				3225E6161FE2C551008F5531 /* DGContenUnderKeyboardViewController.xib */,
-			);
-			path = XIBs;
 			sourceTree = "<group>";
 		};
 		3225E61A1FE2C561008F5531 /* Resources */ = {
@@ -136,6 +132,84 @@
 				3225E61B1FE2C577008F5531 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		6C01DB041FE304440065FE0F /* CollectionViewWithViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6C01DB161FE309410065FE0F /* Common */,
+				6C01DB0F1FE307360065FE0F /* Protocols */,
+				6C01DB131FE309030065FE0F /* DGTemplateCollectionViewController.h */,
+				6C01DB141FE309030065FE0F /* DGTemplateCollectionViewController.m */,
+				6CCF5C131FE30F6D004C3EFA /* DGTemplateCollectionViewController.xib */,
+				6C01DB1C1FE309C20065FE0F /* DGListViewModel.h */,
+				6C01DB1D1FE309C20065FE0F /* DGListViewModel.m */,
+				6CCF5C0D1FE30ACB004C3EFA /* DGTemplateCellViewModel.h */,
+				6CCF5C0E1FE30ACB004C3EFA /* DGTemplateCellViewModel.m */,
+				6CCF5C101FE30B31004C3EFA /* DGTemplateCollectionViewCell.h */,
+				6CCF5C111FE30B31004C3EFA /* DGTemplateCollectionViewCell.m */,
+				6CCF5C151FE3114E004C3EFA /* DGTemplateCollectionViewCell.xib */,
+			);
+			path = CollectionViewWithViewModel;
+			sourceTree = "<group>";
+		};
+		6C01DB0F1FE307360065FE0F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6C01DB101FE3074F0065FE0F /* DGBaseListViewModelProtocol.h */,
+				6C01DB111FE3074F0065FE0F /* DGCellModel.h */,
+				6C01DB121FE307F40065FE0F /* DGConfigurableCell.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6C01DB161FE309410065FE0F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6C01DB171FE3098A0065FE0F /* DGBaseCollectionViewController.h */,
+				6C01DB191FE3098B0065FE0F /* DGBaseCollectionViewController.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6C2F05721FE2E6F000637B0F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6C2F05741FE2E72100637B0F /* DGTableViewController.h */,
+				6C2F05731FE2E72100637B0F /* DGTableViewController.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6C2F05761FE2E75B00637B0F /* KeyboardModule */ = {
+			isa = PBXGroup;
+			children = (
+				6C2F05781FE2E77900637B0F /* DGContenUnderKeyboardViewController.h */,
+				6C2F05771FE2E77900637B0F /* DGContenUnderKeyboardViewController.m */,
+				6C2F057A1FE2E7A400637B0F /* DGContenUnderKeyboardViewController.xib */,
+			);
+			path = KeyboardModule;
+			sourceTree = "<group>";
+		};
+		6C2F057C1FE2E7D000637B0F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6C2F057D1FE2E7D000637B0F /* LaunchScreen.storyboard */,
+				6C2F057F1FE2E7D000637B0F /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6C963D241FE2EC5200F97238 /* SliderModule */ = {
+			isa = PBXGroup;
+			children = (
+				6C963D251FE2ED1700F97238 /* DGSliderViewController.h */,
+				6C963D261FE2ED1700F97238 /* DGSliderViewController.m */,
+				6C963D271FE2ED1700F97238 /* DGSliderViewController.xib */,
+				6C01DB001FE3008A0065FE0F /* DGPagedSliderFlowLayout.h */,
+				6C01DB011FE3008A0065FE0F /* DGPagedSliderFlowLayout.m */,
+			);
+			path = SliderModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,7 +239,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = DG;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0900;
 				TargetAttributes = {
 					3221E9161DACD29000CD7C59 = {
 						CreatedOnToolsVersion = 8.0;
@@ -197,10 +271,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3225E6171FE2C551008F5531 /* LaunchScreen.storyboard in Resources */,
+				6C963D291FE2ED1700F97238 /* DGSliderViewController.xib in Resources */,
+				6CCF5C141FE30F6D004C3EFA /* DGTemplateCollectionViewController.xib in Resources */,
 				3221E9361DACDA2700CD7C59 /* .gitignore in Resources */,
-				3225E6191FE2C551008F5531 /* DGContenUnderKeyboardViewController.xib in Resources */,
-				3225E6181FE2C551008F5531 /* Main.storyboard in Resources */,
+				6C2F05821FE2E7D000637B0F /* Main.storyboard in Resources */,
+				6C2F05811FE2E7D000637B0F /* LaunchScreen.storyboard in Resources */,
+				6C2F057B1FE2E7A500637B0F /* DGContenUnderKeyboardViewController.xib in Resources */,
+				6CCF5C161FE3114E004C3EFA /* DGTemplateCollectionViewCell.xib in Resources */,
 				3225E61C1FE2C577008F5531 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,28 +289,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3225E60D1FE2C515008F5531 /* DGTableViewController.m in Sources */,
-				3225E60C1FE2C515008F5531 /* DGContenUnderKeyboardViewController.m in Sources */,
+				6C01DB1B1FE3098B0065FE0F /* DGBaseCollectionViewController.m in Sources */,
+				6C2F05791FE2E77900637B0F /* DGContenUnderKeyboardViewController.m in Sources */,
+				6C01DB151FE309030065FE0F /* DGTemplateCollectionViewController.m in Sources */,
+				6C963D281FE2ED1700F97238 /* DGSliderViewController.m in Sources */,
+				6C2F05751FE2E72100637B0F /* DGTableViewController.m in Sources */,
+				6CCF5C0F1FE30ACB004C3EFA /* DGTemplateCellViewModel.m in Sources */,
 				3221E91C1DACD29000CD7C59 /* main.m in Sources */,
 				3225E60E1FE2C515008F5531 /* AppDelegate.m in Sources */,
+				6C01DB021FE3008A0065FE0F /* DGPagedSliderFlowLayout.m in Sources */,
+				6C01DB1E1FE309C20065FE0F /* DGListViewModel.m in Sources */,
+				6CCF5C121FE30B31004C3EFA /* DGTemplateCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3225E6111FE2C551008F5531 /* LaunchScreen.storyboard */ = {
+		6C2F057D1FE2E7D000637B0F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3225E6121FE2C551008F5531 /* Base */,
+				6C2F057E1FE2E7D000637B0F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		3225E6131FE2C551008F5531 /* Main.storyboard */ = {
+		6C2F057F1FE2E7D000637B0F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3225E6141FE2C551008F5531 /* Base */,
+				6C2F05801FE2E7D000637B0F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -250,7 +334,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -258,7 +344,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -297,7 +388,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -305,7 +398,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

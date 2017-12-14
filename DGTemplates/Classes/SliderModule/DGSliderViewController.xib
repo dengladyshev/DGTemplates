@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DGSliderViewController">
+            <connections>
+                <outlet property="headerSliderCollectionView" destination="IGL-ek-pRo" id="xoF-Ev-CCZ"/>
+                <outlet property="headerSliderHeightConstraint" destination="4Mj-0T-knv" id="fXH-aJ-hVg"/>
+                <outlet property="pagedSliderCollectionView" destination="28Q-5T-x0T" id="kXe-4A-En4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MNn-qc-Drr">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" directionalLockEnabled="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="IGL-ek-pRo">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="220"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="220" id="4Mj-0T-knv"/>
+                            </constraints>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="nKy-tM-rxb">
+                                <size key="itemSize" width="50" height="50"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="Vmq-Jf-2xf"/>
+                                <outlet property="delegate" destination="-1" id="Dv3-oC-xHu"/>
+                            </connections>
+                        </collectionView>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="28Q-5T-x0T">
+                            <rect key="frame" x="0.0" y="236" width="375" height="220"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="OxV-Px-Omk">
+                                <size key="itemSize" width="50" height="50"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="oof-mr-BYk"/>
+                                <outlet property="delegate" destination="-1" id="KMd-U0-r6L"/>
+                            </connections>
+                        </collectionView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="28Q-5T-x0T" secondAttribute="bottom" id="2MI-b3-eYk"/>
+                        <constraint firstItem="IGL-ek-pRo" firstAttribute="top" secondItem="MNn-qc-Drr" secondAttribute="top" id="8cL-Sn-mf6"/>
+                        <constraint firstItem="28Q-5T-x0T" firstAttribute="height" secondItem="IGL-ek-pRo" secondAttribute="height" id="FqL-o3-7bF"/>
+                        <constraint firstItem="IGL-ek-pRo" firstAttribute="centerX" secondItem="MNn-qc-Drr" secondAttribute="centerX" id="WQU-De-Cw6"/>
+                        <constraint firstAttribute="trailing" secondItem="28Q-5T-x0T" secondAttribute="trailing" id="fiS-Bz-u1X"/>
+                        <constraint firstItem="28Q-5T-x0T" firstAttribute="leading" secondItem="MNn-qc-Drr" secondAttribute="leading" id="gmR-xI-0NH"/>
+                        <constraint firstItem="28Q-5T-x0T" firstAttribute="top" secondItem="IGL-ek-pRo" secondAttribute="bottom" constant="16" id="lLS-dF-Zjj"/>
+                        <constraint firstItem="IGL-ek-pRo" firstAttribute="leading" secondItem="MNn-qc-Drr" secondAttribute="leading" id="xdW-t0-gxf"/>
+                        <constraint firstAttribute="trailing" secondItem="IGL-ek-pRo" secondAttribute="trailing" id="xmQ-uj-5Ct"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="MNn-qc-Drr" firstAttribute="bottom" secondItem="Euf-CD-2EF" secondAttribute="bottom" id="5YS-Mc-W0W"/>
+                <constraint firstItem="MNn-qc-Drr" firstAttribute="trailing" secondItem="Euf-CD-2EF" secondAttribute="trailing" id="Pgn-Su-rjc"/>
+                <constraint firstItem="MNn-qc-Drr" firstAttribute="leading" secondItem="Euf-CD-2EF" secondAttribute="leading" id="Rtc-If-llL"/>
+                <constraint firstItem="MNn-qc-Drr" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="wcX-2U-TiE"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Euf-CD-2EF"/>
+            <point key="canvasLocation" x="34.5" y="54.5"/>
+        </view>
+    </objects>
+</document>

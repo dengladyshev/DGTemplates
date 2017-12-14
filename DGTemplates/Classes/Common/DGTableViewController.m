@@ -8,6 +8,8 @@
 
 #import "DGTableViewController.h"
 #import "DGContenUnderKeyboardViewController.h"
+#import "DGSliderViewController.h"
+#import "DGTemplateCollectionViewController.h"
 
 static NSString *const kDGCellId = @"DGCellId";
 
@@ -25,15 +27,25 @@ static NSString *const kDGCellId = @"DGCellId";
     [super viewDidLoad];
     self.title = @"Templates";
     self.templates = @[@"Moving content under keyboard",
-                       @"Template 2",
-                       @"Template 3"];
+                       @"Sliders",
+                       @"Collection View With View Model"];
 }
 
 #pragma mark - UITableViewDelegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (indexPath.row == 0) {
-        [self.navigationController pushViewController:[DGContenUnderKeyboardViewController new] animated:YES];
+    switch (indexPath.row) {
+        case 0:
+            [self.navigationController pushViewController:[DGContenUnderKeyboardViewController new] animated:YES];
+            break;
+        case 1:
+            [self.navigationController pushViewController:[DGSliderViewController new] animated:YES];
+            break;
+        case 2:
+            [self.navigationController pushViewController:[DGTemplateCollectionViewController new] animated:YES];
+            break;
+        default:
+            break;
     }
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
 }
