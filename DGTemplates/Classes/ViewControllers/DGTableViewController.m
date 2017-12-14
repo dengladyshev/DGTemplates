@@ -24,24 +24,24 @@ static NSString *const kDGCellId = @"DGCellId";
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"Templates";
-    self.templates = @[@"Moving content under keyboard", @"Template 2", @"Template 3"];
+    self.templates = @[@"Moving content under keyboard",
+                       @"Template 2",
+                       @"Template 3"];
 }
 
 #pragma mark - UITableViewDelegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSUInteger row = indexPath.row;
-    if (row == 0) {
-        DGContenUnderKeyboardViewController *contenUnderKeyboardViewController = [[DGContenUnderKeyboardViewController alloc]
-                                                                                  initWithNibName:NSStringFromClass([DGContenUnderKeyboardViewController class]) bundle:nil];
-        [self.navigationController pushViewController:contenUnderKeyboardViewController animated:YES];
+    if (indexPath.row == 0) {
+        [self.navigationController pushViewController:[DGContenUnderKeyboardViewController new] animated:YES];
     }
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
 }
 
 #pragma mark - UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return [self.templates count];
+    return self.templates.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {

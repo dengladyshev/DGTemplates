@@ -8,31 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		3221E91C1DACD29000CD7C59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3221E91B1DACD29000CD7C59 /* main.m */; };
-		3221E91F1DACD29000CD7C59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3221E91E1DACD29000CD7C59 /* AppDelegate.m */; };
-		3221E9271DACD29000CD7C59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3221E9261DACD29000CD7C59 /* Assets.xcassets */; };
 		3221E9361DACDA2700CD7C59 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3221E9351DACDA2700CD7C59 /* .gitignore */; };
-		3221E9461DACDE5B00CD7C59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3221E9421DACDE5B00CD7C59 /* LaunchScreen.storyboard */; };
-		3221E9471DACDE5B00CD7C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3221E9441DACDE5B00CD7C59 /* Main.storyboard */; };
-		3221E9501DACE46E00CD7C59 /* DGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3221E94F1DACE46E00CD7C59 /* DGTableViewController.m */; };
-		3221E9571DAD231100CD7C59 /* DGContenUnderKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3221E9551DAD231100CD7C59 /* DGContenUnderKeyboardViewController.m */; };
-		3221E95B1DAD235400CD7C59 /* DGContenUnderKeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3221E95A1DAD235400CD7C59 /* DGContenUnderKeyboardViewController.xib */; };
+		3225E60C1FE2C515008F5531 /* DGContenUnderKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3225E6081FE2C515008F5531 /* DGContenUnderKeyboardViewController.m */; };
+		3225E60D1FE2C515008F5531 /* DGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3225E60A1FE2C515008F5531 /* DGTableViewController.m */; };
+		3225E60E1FE2C515008F5531 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3225E60B1FE2C515008F5531 /* AppDelegate.m */; };
+		3225E6171FE2C551008F5531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3225E6111FE2C551008F5531 /* LaunchScreen.storyboard */; };
+		3225E6181FE2C551008F5531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3225E6131FE2C551008F5531 /* Main.storyboard */; };
+		3225E6191FE2C551008F5531 /* DGContenUnderKeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3225E6161FE2C551008F5531 /* DGContenUnderKeyboardViewController.xib */; };
+		3225E61C1FE2C577008F5531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3225E61B1FE2C577008F5531 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3221E9171DACD29000CD7C59 /* DGTemplates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DGTemplates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3221E91B1DACD29000CD7C59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3221E91D1DACD29000CD7C59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3221E91E1DACD29000CD7C59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3221E9261DACD29000CD7C59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3221E92B1DACD29000CD7C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3221E9351DACDA2700CD7C59 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		3221E9431DACDE5B00CD7C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3221E9451DACDE5B00CD7C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3221E94E1DACE46E00CD7C59 /* DGTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGTableViewController.h; sourceTree = "<group>"; };
-		3221E94F1DACE46E00CD7C59 /* DGTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGTableViewController.m; sourceTree = "<group>"; };
-		3221E9541DAD231100CD7C59 /* DGContenUnderKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGContenUnderKeyboardViewController.h; sourceTree = "<group>"; };
-		3221E9551DAD231100CD7C59 /* DGContenUnderKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGContenUnderKeyboardViewController.m; sourceTree = "<group>"; };
-		3221E95A1DAD235400CD7C59 /* DGContenUnderKeyboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DGContenUnderKeyboardViewController.xib; sourceTree = "<group>"; };
+		3225E6051FE2C515008F5531 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3225E6071FE2C515008F5531 /* DGContenUnderKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGContenUnderKeyboardViewController.h; sourceTree = "<group>"; };
+		3225E6081FE2C515008F5531 /* DGContenUnderKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGContenUnderKeyboardViewController.m; sourceTree = "<group>"; };
+		3225E6091FE2C515008F5531 /* DGTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGTableViewController.h; sourceTree = "<group>"; };
+		3225E60A1FE2C515008F5531 /* DGTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGTableViewController.m; sourceTree = "<group>"; };
+		3225E60B1FE2C515008F5531 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3225E6121FE2C551008F5531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3225E6141FE2C551008F5531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3225E6161FE2C551008F5531 /* DGContenUnderKeyboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DGContenUnderKeyboardViewController.xib; sourceTree = "<group>"; };
+		3225E61B1FE2C577008F5531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +66,8 @@
 		3221E9191DACD29000CD7C59 /* DGTemplates */ = {
 			isa = PBXGroup;
 			children = (
-				3221E9371DACDD9A00CD7C59 /* CodeFiles */,
-				3221E9381DACDDA500CD7C59 /* UI */,
-				3221E91D1DACD29000CD7C59 /* AppDelegate.h */,
-				3221E91E1DACD29000CD7C59 /* AppDelegate.m */,
-				3221E9261DACD29000CD7C59 /* Assets.xcassets */,
-				3221E92B1DACD29000CD7C59 /* Info.plist */,
+				3225E6041FE2C4E2008F5531 /* Classes */,
+				3225E61A1FE2C561008F5531 /* Resources */,
 				3221E91A1DACD29000CD7C59 /* Supporting Files */,
 			);
 			path = DGTemplates;
@@ -80,70 +76,66 @@
 		3221E91A1DACD29000CD7C59 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3221E92B1DACD29000CD7C59 /* Info.plist */,
 				3221E91B1DACD29000CD7C59 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3221E9371DACDD9A00CD7C59 /* CodeFiles */ = {
+		3225E6041FE2C4E2008F5531 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3221E94A1DACDECE00CD7C59 /* Model */,
-				3221E9491DACDEC200CD7C59 /* Views */,
-				3221E9481DACDEB600CD7C59 /* ViewControllers */,
+				3225E6051FE2C515008F5531 /* AppDelegate.h */,
+				3225E60B1FE2C515008F5531 /* AppDelegate.m */,
+				3225E6061FE2C515008F5531 /* ViewControllers */,
+				3225E60F1FE2C551008F5531 /* UI */,
 			);
-			path = CodeFiles;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		3221E9381DACDDA500CD7C59 /* UI */ = {
+		3225E6061FE2C515008F5531 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				3221E9391DACDE0400CD7C59 /* Storyboards */,
-				3221E9591DAD234100CD7C59 /* XIBs */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		3221E9391DACDE0400CD7C59 /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				3221E9421DACDE5B00CD7C59 /* LaunchScreen.storyboard */,
-				3221E9441DACDE5B00CD7C59 /* Main.storyboard */,
-			);
-			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		3221E9481DACDEB600CD7C59 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				3221E94E1DACE46E00CD7C59 /* DGTableViewController.h */,
-				3221E94F1DACE46E00CD7C59 /* DGTableViewController.m */,
-				3221E9541DAD231100CD7C59 /* DGContenUnderKeyboardViewController.h */,
-				3221E9551DAD231100CD7C59 /* DGContenUnderKeyboardViewController.m */,
+				3225E6071FE2C515008F5531 /* DGContenUnderKeyboardViewController.h */,
+				3225E6081FE2C515008F5531 /* DGContenUnderKeyboardViewController.m */,
+				3225E6091FE2C515008F5531 /* DGTableViewController.h */,
+				3225E60A1FE2C515008F5531 /* DGTableViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		3221E9491DACDEC200CD7C59 /* Views */ = {
+		3225E60F1FE2C551008F5531 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				3225E6101FE2C551008F5531 /* Storyboards */,
+				3225E6151FE2C551008F5531 /* XIBs */,
 			);
-			path = Views;
+			path = UI;
 			sourceTree = "<group>";
 		};
-		3221E94A1DACDECE00CD7C59 /* Model */ = {
+		3225E6101FE2C551008F5531 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				3225E6111FE2C551008F5531 /* LaunchScreen.storyboard */,
+				3225E6131FE2C551008F5531 /* Main.storyboard */,
 			);
-			path = Model;
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		3221E9591DAD234100CD7C59 /* XIBs */ = {
+		3225E6151FE2C551008F5531 /* XIBs */ = {
 			isa = PBXGroup;
 			children = (
-				3221E95A1DAD235400CD7C59 /* DGContenUnderKeyboardViewController.xib */,
+				3225E6161FE2C551008F5531 /* DGContenUnderKeyboardViewController.xib */,
 			);
 			path = XIBs;
+			sourceTree = "<group>";
+		};
+		3225E61A1FE2C561008F5531 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3225E61B1FE2C577008F5531 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,11 +197,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3225E6171FE2C551008F5531 /* LaunchScreen.storyboard in Resources */,
 				3221E9361DACDA2700CD7C59 /* .gitignore in Resources */,
-				3221E9271DACD29000CD7C59 /* Assets.xcassets in Resources */,
-				3221E9471DACDE5B00CD7C59 /* Main.storyboard in Resources */,
-				3221E95B1DAD235400CD7C59 /* DGContenUnderKeyboardViewController.xib in Resources */,
-				3221E9461DACDE5B00CD7C59 /* LaunchScreen.storyboard in Resources */,
+				3225E6191FE2C551008F5531 /* DGContenUnderKeyboardViewController.xib in Resources */,
+				3225E6181FE2C551008F5531 /* Main.storyboard in Resources */,
+				3225E61C1FE2C577008F5531 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,28 +212,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3221E9501DACE46E00CD7C59 /* DGTableViewController.m in Sources */,
-				3221E9571DAD231100CD7C59 /* DGContenUnderKeyboardViewController.m in Sources */,
-				3221E91F1DACD29000CD7C59 /* AppDelegate.m in Sources */,
+				3225E60D1FE2C515008F5531 /* DGTableViewController.m in Sources */,
+				3225E60C1FE2C515008F5531 /* DGContenUnderKeyboardViewController.m in Sources */,
 				3221E91C1DACD29000CD7C59 /* main.m in Sources */,
+				3225E60E1FE2C515008F5531 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3221E9421DACDE5B00CD7C59 /* LaunchScreen.storyboard */ = {
+		3225E6111FE2C551008F5531 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3221E9431DACDE5B00CD7C59 /* Base */,
+				3225E6121FE2C551008F5531 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		3221E9441DACDE5B00CD7C59 /* Main.storyboard */ = {
+		3225E6131FE2C551008F5531 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3221E9451DACDE5B00CD7C59 /* Base */,
+				3225E6141FE2C551008F5531 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

@@ -10,6 +10,4 @@
 
 @interface DGContenUnderKeyboardViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
-
 @end

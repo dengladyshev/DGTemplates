@@ -10,6 +10,8 @@
 
 @interface DGContenUnderKeyboardViewController () <UITextFieldDelegate>
 
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+
 @end
 
 @implementation DGContenUnderKeyboardViewController
@@ -30,17 +32,12 @@
 
 - (void)keyboardWillShown:(NSNotification*)notification {
     NSDictionary* info = [notification userInfo];
-    CGSize keyboardSize = [[info objectForKey:UIKeyboardFrameBeginUserInfoKey] CGRectValue].size;
-    
-    UIEdgeInsets contentInsets = UIEdgeInsetsMake(self.scrollView.contentInset.top, 0.0, keyboardSize.height, 0.0);
-    self.scrollView.contentInset = contentInsets;
-    self.scrollView.scrollIndicatorInsets = contentInsets;
+    CGRect keyboardFrame = [[info objectForKey:UIKeyboardFrameEndUserInfoKey] CGRectValue];
+    self.scrollView.contentInset = self.scrollView.scrollIndicatorInsets = UIEdgeInsetsMake(self.scrollView.contentInset.top, 0, CGRectGetHeight(keyboardFrame), 0);
 }
 
 - (void)keyboardWillBeHidden:(NSNotification*)notification {
-    UIEdgeInsets contentInsets = UIEdgeInsetsMake(self.scrollView.contentInset.top, 0.0, 0.0, 0.0);
-    self.scrollView.contentInset = contentInsets;
-    self.scrollView.scrollIndicatorInsets = contentInsets;
+    self.scrollView.contentInset = self.scrollView.scrollIndicatorInsets = UIEdgeInsetsMake(self.scrollView.contentInset.top, 0, 0, 0);
 }
 
 #pragma mark - UITextFieldDelegate
