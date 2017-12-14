@@ -16,6 +16,8 @@
 
 @implementation DGTemplateCollectionViewController
 
+#pragma mark - Lifecycle
+
 - (NSString *)nibName {
     return [super nibName];
 }
@@ -35,6 +37,8 @@
         self.cellIds = [cellIds copy];
     }
 }
+
+#pragma mark - UICollectionViewDelegateFlowLayout
 
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section {
     return 16;
